@@ -6,6 +6,8 @@ Understanding what will be the Burn Rate for the employee working in an organiza
 
 ✒️Dataset（數據集）
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+以下主要為train.csv與test.csv內的數據資料分類，將以下數據分別做資料前處理後，轉化為X_train,X_test,Y_train,Y_test做訓練資料集，在套入現有AI模型包含
+XGBRegressor,LGBMRegressor,LinearRegression,RandomForestRegressor,GradientBoostingRegressor與DecisionTreeRegressor
 Employee ID: The unique ID allocated for each employee
 
 Date of Joining: The date-time when the employee has joined the organization (example: 2008-12-30)
@@ -24,3 +26,8 @@ Mental Fatigue Score: The level of fatigue mentally the employee is facing.
 -- In the range of [0.0, 10.0] where 0.0 means no fatigue and 10.0 means completely fatigue.
 Burn Rate: The value we need to predict for each employee telling the rate of Bur out while working.
 -- In the range of [0.0, 1.0] where the higher the value is more is the burn out.
+
+✒️程式使用模型：
+1. XGBRegressor
+2. LGBMRegressor
+3. LinearRegression
