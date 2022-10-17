@@ -7,7 +7,8 @@ Understanding what will be the Burn Rate for the employee working in an organiza
 ✒️Dataset（數據集）
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 以下主要為train.csv與test.csv內的數據資料分類，將以下數據分別做資料前處理後，轉化為X_train,X_test,Y_train,Y_test做訓練資料集，在套入現有AI模型包含
-XGBRegressor,LGBMRegressor,LinearRegression,RandomForestRegressor,GradientBoostingRegressor與DecisionTreeRegressor
+XGBRegressor、LGBMRegressor、LinearRegression、RandomForestRegressor、GradientBoostingRegressor與DecisionTreeRegressor
+
 Employee ID: The unique ID allocated for each employee
 
 Date of Joining: The date-time when the employee has joined the organization (example: 2008-12-30)
